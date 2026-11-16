@@ -1,0 +1,225 @@
+h2 {
+    color: royalblue;
+}
+.rb-36 {
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#locate {
+    text-align: center;
+}
+
+#locate a {
+    color: darkgoldenrod;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+
+.banner {
+    background-image: url("C:\\Users\\User\\Downloads\\image\\hello world.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:active {
+    color: darkorange;
+}
+
+/* a:visited {
+    color: darkgreen;
+} */
+section {
+    border: 2px solid olive;
+}
+
+section > p {
+    color: olive;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+/* 平板與較小螢幕 */
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+/* 手機 */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+
+#p1 {
+    border: 1px solid red;
+    background-color: lightpink;
+}
+
+#p2 {
+    border: 1px solid blue;
+    background-color: rgb(223, 255, 182);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+h1 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+h2 {
+    font-family: "Edu QLD Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 32px;
+    }
+}
+
+.iconfixed {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    z-index: 999;
+}
+
+.facebook-icon {
+    color: #1877F2;
+    font-size: 40px;
+}
+
+.instagram-icon {
+    color: #E4405F;
+}
+
+.youtube-icon {
+    color: #FF0000;
+}
+
+.github-icon {
+    color: #181717;
+}
+
+.keyword-line {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.up-text {
+    position: relative;
+    font-size: 20px;
+    top: -8px;
+}
+
+.down-text {
+    position: relative;
+    font-size: 20px;
+    top: 8px;
+}
+/* 三格共用設定 */
+.ptext {
+    min-height: 100px;
+    border: 3px solid royalblue;
+    font-size: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* 第一格 */
+.ptext-1 {
+    background-color: deepskyblue;
+    color: white;
+}
+
+/* 第二格 */
+.ptext-2 {
+    background-color: lightpink;
+    border-color: red;
+
+    font-family: "Edu QLD Hand", cursive;
+    color: white;
+}
+
+
+/* 第三格：讓兩段文字緊接 */
+.mixed-text {
+    gap: 6px;
+}
+
+/* 第三格中文恢復預設字體 */
+.default-text {
+    font-family: Arial, "Noto Sans TC", sans-serif;
+}
+
+/* 第三格 DCAT 保留手寫字體 */
+.handwritten-text {
+    font-family: "Edu QLD Hand", cursive;
+}
+
+.ptext-3 {
+    background-color: lightpink;
+    border-color: red;
+}
+
+.default-text {
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.handwritten-text {
+    font-family: "Edu QLD Hand", cursive;
+}
+
+.normal-font {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
